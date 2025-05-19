@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web3 Literature DApp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Web3 Literature Sharing</h1>
 
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress"></p>
+
+    <textarea id="literatureInput" placeholder="Write your story, poem, or essay here..."></textarea>
+    <button id="uploadToIPFS">Publish to IPFS</button>
+
+    <p id="ipfsLink"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
