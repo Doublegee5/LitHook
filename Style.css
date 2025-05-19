@@ -1,6 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f0f0f0;
+  margin: 0;
   padding: 20px;
 }
 
@@ -19,6 +20,7 @@ textarea {
   margin: 20px 0;
   padding: 10px;
   font-size: 16px;
+  resize: vertical;
 }
 
 button {
@@ -28,6 +30,7 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 button:hover {
